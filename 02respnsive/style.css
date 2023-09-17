@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap {
+  width: 360px;
+  height: 100%;
+  background: #FFEB3C;
+}
+#header {
+  display: flex;
+  justify-content: right;
+  padding: 0px 15px;
+}
+#header .header_box span {
+  margin-left: 3px;
+}
+/* #header .header_box span i {
+} */
