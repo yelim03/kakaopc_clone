@@ -4,8 +4,8 @@
 - git 세팅
 
 - 유저 이름 / 이메일 세팅
-git config --global user.name "Divjason"
-git config --global user.email "sejinpark@tcocs.com"
+git config --global user.name "닉네임"
+git config --global user.email "이메일"
 
 - 유저 이름 / 이메일 정상적으로 세팅 확인
 git config --list
@@ -14,7 +14,7 @@ git config --list
 git init (*한 번만 입력해주시면 된다)
 
 - 현재 root폴더와 git hub repository를 연결
-git remote add origin https://github.com/Divjason/EZEN-FED-230822.git
+git remote add origin https://github.com/내 주소
 
 - 현재 root폴더와 git hub repository 정상연결 확인
 git remote -v
